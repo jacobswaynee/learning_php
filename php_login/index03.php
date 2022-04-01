@@ -11,16 +11,28 @@
 </head>
 <body>
 
+<header>
+    <div>
+    <nav>
+        <ul>
+            <li>Company Profile</li>
+            <li>Offered Services</li>
+            <li>New Products</li>
+
+        </ul>
+    </nav>
+    </div>
+</header>
+
 <h1 class="sub">Submition Form</h1>
 <form action="login.php" method="post" class="form">
-    <fieldset>
-        <legend>PERSONAL INFORMATION</legend>
+
         <br><br>
-        <label>Name :</label> <input type="text" name="name"/>
+        <label for="name">Name :</label> <input type="text" name="name"/>
         <br><br>
-        <label>Email:</label> <input type="email" name="name"/>
+        <label for="email">Email:</label> <input type="email" name="name"/>
         <br><br>
-        <label>Contact: </label> <input type="number" name="name"/>
+        <label for="contact">Contact: </label> <input type="number" name="name"/>
         <br><br>
         <label>Date :</label> <input type="date"/>
         <br><br>
@@ -37,7 +49,7 @@
 
         </textarea>
 <br><br>
-    </fieldset>
+
     <input type="submit" value="submit" class="in">
 </form>
     <script

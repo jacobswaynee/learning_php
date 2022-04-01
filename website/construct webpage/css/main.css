@@ -3,14 +3,14 @@
     margin: 0;
 }
 body{
-    background: darkcyan;
+    background: darkgray;
 }
 .tm-container{
     max-width: 1200px;
     margin: 0 auto;
 }
 .tm-header{
-    background: #fff;
+    background: gainsboro;
 }
 .tm-header::after{
     content: "";
@@ -36,7 +36,7 @@ body{
 .tm-nav ul li a{
   padding: 10px 20px;
     text-decoration: none;
-    color: #303030;
+    color:cadetblue ;
 }
 .tm-head{
     color: cornflowerblue;
